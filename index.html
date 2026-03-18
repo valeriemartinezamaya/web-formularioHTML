@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Registro de Usuario</title>
+<link rel="stylesheet" href="valerie.css">
+</head>
+
+<body>
+
+<div class="hero">
+<h1>Registro de Usuario</h1>
+</div>
+
+<div class="formulario">
+
+<form>
+
+<label>Nombre Completo *</label>
+
+<div class="fila">
+<input type="text" placeholder="Nombre" required minlength="3" maxlength="64">
+<input type="text" placeholder="Apellido" required minlength="3" maxlength="64">
+</div>
+
+
+<label>Fecha de Nacimiento *</label>
+
+<input type="date" required>
+
+
+<label>Número de Teléfono *</label>
+<input type="tel" placeholder="(###) ### ####" required>
+
+
+<label>Correo Electrónico *</label>
+<input type="email" placeholder="malomalito@dominio.com" required>
+
+
+<label>Cuáles son tus intereses *</label>
+
+<div class="intereses">
+
+<div class="opcion">
+<input type="checkbox" id="info">
+<label for="info">Informática</label>
+</div>
+
+<div class="opcion">
+<input type="checkbox" id="musica">
+<label for="musica">Música</label>
+</div>
+
+<div class="opcion">
+<input type="checkbox" id="arte">
+<label for="arte">Arte Gráfico</label>
+</div>
+
+<div class="opcion">
+<input type="checkbox" id="negocios">
+<label for="negocios">Negocios</label>
+</div>
+
+</div>
+
+<label>Otros</label>
+<input type="text" placeholder="Por favor escribe aqui tus otros intereses">
+
+
+<h3>Trabajo y Experiencia</h3>
+
+<label>Describe Tu Experiencia Laboral</label>
+<textarea rows="5"></textarea>
+
+
+<div class="boton">
+<button type="submit">REGISTRARSE</button>
+</div>
+
+</form>
+
+</div>
+
+</body>
+</html>
